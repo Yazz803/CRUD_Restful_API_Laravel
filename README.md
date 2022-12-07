@@ -1,3 +1,9 @@
+## Hal Penting di Pembelajaran ini
+- ```php artisan make:resource PostResource``` untuk membuat resource controller API
+- ```php artisan make:controller Api/PostController``` untuk membuat controller API
+- Membuat CRUD API pada controller sama dengan membuat CRUD pada controller biasa, bedanya return nya dia mengembalikan data dalam bentuk JSON.
+- Agar bisa diakses API nya, kita harus menambahkan ```Route::apiResource('posts', PostController::class);``` pada  routes/api.php
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
